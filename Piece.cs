@@ -27,6 +27,10 @@ namespace MyChess
         {
             return this.color;
         }
+        public bool IsPosInRange(Position p)
+        {
+            return p.x >= 0 && p.x < Board.LEN && p.y >= 0 && p.y < Board.LEN;
+        }
         public abstract List<Move> GetPossibleMoves();
 
 

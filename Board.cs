@@ -38,6 +38,12 @@ namespace MyChess
         {
             this.board[m.newPos.x, m.newPos.y] = this.board[m.myPos.x, m.myPos.y];
         }
+         
+        //Only for debug
+        public void InsertPeice(Piece p, Position pos)
+        {
+            this.board[pos.x, pos.y] = p;
+        }
 
     }
 }

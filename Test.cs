@@ -10,12 +10,6 @@ namespace MyChess
     {
         static void Main(string[] args)
         {
-            MoveList m1 = new MoveList();
-            MoveList m2 = new MoveList();
-            MoveList m3 = new MoveList();
-
-
-            Console.WriteLine("hey");
 
         }
     }
