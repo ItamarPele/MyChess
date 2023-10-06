@@ -8,7 +8,7 @@ namespace MyChess
 {
     public class Board
     {
-        private const short LEN = 8;
+        public const short LEN = 8;
         private Piece[,] board;
         
         public Board()

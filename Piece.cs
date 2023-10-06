@@ -23,6 +23,10 @@ namespace MyChess
         {
             MyColorMoves.AddMovesToList(color, GetPossibleMoves());
         }
+        public Color GetColor()
+        {
+            return this.color;
+        }
         public abstract List<Move> GetPossibleMoves();
 
 
