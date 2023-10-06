@@ -61,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Board.cs" />
     <Compile Include="Color.cs" />
     <Compile Include="Move.cs" />
     <Compile Include="MoveList.cs" />

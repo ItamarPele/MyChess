@@ -7,8 +7,19 @@ using System.Threading.Tasks;
 
 namespace MyChess
 {
-    internal class Piece
+    public abstract class Piece
     {
-        abstract async CallConvFastcall;
+        protected Color color;
+        protected Position pos;
+        protected static Board board = new Board();
+
+        public void InsertMovesToList()
+        {
+
+        }
+        public abstract List<Move> GetPossibleMoves();
+
+
+
     }
 }
