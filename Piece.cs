@@ -13,9 +13,15 @@ namespace MyChess
         protected Position pos;
         protected static Board board = new Board();
 
+        public Piece(Color c, Position pos)
+        {
+            this.color = c;
+            this.pos = pos;
+        }
+
         public void InsertMovesToList()
         {
-
+            MyColorMoves.AddMovesToList(color, GetPossibleMoves());
         }
         public abstract List<Move> GetPossibleMoves();
 
